@@ -1,4 +1,4 @@
-var countDownDate = new Date("Feb 1, 2023 04:40:00 PM").getTime();
+var countDownDate = new Date("Feb 1, 2023 05:00:00 PM").getTime();
 
 var countdownfunction = setInterval(function() {
 
@@ -10,7 +10,7 @@ var countdownfunction = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("jazi").innerHTML = seconds + " Sec" + "<br><br><br><br><br> Prepared By Hussy";
+  document.getElementById("jazi").innerHTML = hours +" Hr : "+minutes+" Min : "+seconds + " Sec" + "<br><br><br><br><br> Prepared By Hussy";
 
  if (distance < 0) 
  {
