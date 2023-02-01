@@ -11,7 +11,7 @@ var countdownfunction = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   document.getElementById("jazi").innerHTML = hours + " H : "
-  + minutes + " M : " + seconds + " Sec";
+  + minutes + " M : " + seconds + " Sec" + "<br><br><br><br><br> Prepared By Hussy";
 
  if (distance < 0) 
  {
