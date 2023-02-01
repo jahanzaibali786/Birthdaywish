@@ -74,10 +74,10 @@ body, html {
         background-color: purple;
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left:3%;
+        margin-left:2%;
         position: relative;
         top:28%;
-        width: 350px;
+        width: 347px;
         height: 1550px;
         border: 2px solid black;
       }
