@@ -4,12 +4,12 @@ body, html {
   }
   
   .birthdayimg {
-    background-image: url('https://cdn.pixabay.com/photo/2018/02/23/21/29/roses-frame-3176667_960_720.jpg');
+    background-image: url('images/WhatsApp\ Image\ 2023-01-31\ at\ 8.26.50\ PM.jpeg');
     height: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-    color: red;
+    color: purple;
     font-size: 35px;
   }
   
@@ -51,8 +51,11 @@ body, html {
     width: 40%;
   }
   @media (min-width:360px) and (max-width:584px) {
+    body{
+      background-image: url('images/WhatsApp\ Image\ 2023-01-31\ at\ 8.26.50\ PM.jpeg');
+    }
     .birthdayimg {
-        background-image: url('https://cdn.pixabay.com/photo/2018/02/23/21/29/roses-frame-3176667_960_720.jpg');
+        background-image: url('images/WhatsApp\ Image\ 2023-01-31\ at\ 8.26.50\ PM.jpeg');
         height: 100%;
         background-position: center;
         background-size: cover;
@@ -60,7 +63,6 @@ body, html {
        
         /* font-size: 35px; */
       }
-      
     .middle {
         font-size:large;
         color:red;
@@ -69,18 +71,18 @@ body, html {
         text-align: center;
       }
     .wish{
-        background-image: url(images/13659115_913999322061027_5442243832848758832_n.jpg);
+        background-color: purple;
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left:15%;
+        margin-left:1%;
         position: relative;
         top:28%;
-        width: 250px;
-        height: 300px;
+        width: 350px;
+        height: 1550px;
         border: 2px solid black;
       }
     #jazi{
-        color: blue;
-        font-size: smaller;
+      color: yellow;
+      font-size: smaller;
       }
 }
