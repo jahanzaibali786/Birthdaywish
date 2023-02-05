@@ -10,7 +10,7 @@ var countdownfunction = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
                                              //hours + " H : "+ minutes + " M : " +
-  document.getElementById("jazi").innerHTML =hours +" Hr : "+minutes+" Min : "+seconds + " Sec" + "<br><br><br><br><br> Prepared By Hussy";
+  document.getElementById("jazi").innerHTML =hours +" Hr : "+minutes+" Min : "+seconds + " Sec" + "<br><br><br><br><br> Prepared By Jahanzaib";
 
  if (distance < 0) 
  {
