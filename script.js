@@ -1,4 +1,4 @@
-var countDownDate = new Date("Feb 1, 2023 05:20:00 PM").getTime();
+var countDownDate = new Date("Feb 1,2023 04:36:00 PM").getTime();
 
 var countdownfunction = setInterval(function() {
 
@@ -9,14 +9,14 @@ var countdownfunction = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  document.getElementById("jazi").innerHTML = hours +" Hr : "+minutes+" Min : "+seconds + " Sec" + "<br><br><br><br><br> Prepared By Hussy";
+                                             //hours + " H : "+ minutes + " M : " +
+  document.getElementById("jazi").innerHTML =hours +" Hr : "+minutes+" Min : "+seconds + " Sec" + "<br><br><br><br><br> Prepared By Hussy";
 
  if (distance < 0) 
  {
     clearInterval(countdownfunction);
-    document.getElementById("surprise").innerHTML="Happy Birthday My Love"
-    document.getElementById("jazi").innerHTML = "Happy Birthday TaNnu ❤️ <br>Happy birthday to the one who holds my heart and dreams. I am wishing you the most blessed of years this next year. I love you <br> On this very special day, I want you to know how much you are loved, not just by me but by everyone who knows you.<br> Happy birthday, sweet love! Here’s to you, the culmination <br> of all of my hopes and dreams. May today be a day filled with<br> joy, blessings, and peace. Happy birthday, dear one Today is yet another chance to celebrate the awesome uniqueness that is you. You are sweet, kind, and <br> vibrant in every way. Thank you for the person you are for me. Happy birthday, my love! Not only are you the most loving<br> wife a man could ever wish <br>for but you are also my best friend. On this special day I <br> want to tell you how much I appreciate you in my life.<br> Happy Birthday, darling! <br> To me, you mean the whole <br> world and I love you more than words could ever express! My favorite moments in life are<br> when I am given an unexpected blessing. You are the best<br> blessing I have had by far.<br> To the most beautiful birthday<br> girl of the century: your life is amazing because you have not ignored the secret of it all- that love is the greatest thing, and you’re so good at loving others. Happy Birthday, and may it<br> be all you deserve and more. Some say being pretty can open doors of opportunity. But you open doors with your intentional living, loving care, and an open heart. And you make it look so easy too! Thank you for leading the rest of us on this worthwhile path. Happy Birthday, gorgeous woman.🤍❤️‍🔥🥰❤️💯";
+    document.getElementById("surprise").innerHTML="Happy Birthday My Dear Brother"
+    document.getElementById("jazi").innerHTML = "🧁❤️ Happy Birthday 🧁❤️<br>🎂❤️ Ibad Ur rehman🎂❤️ <br>“I wish you an amazing and beautiful year ahead, dear brother. May this day filled with joy and happiness .Hope this year bring more excitement and success . May this birthday bring you all the happiness you have ever wished for!.There’s no love comparable to that of what I have for you, .Many Many Happy Returns of the Day”🤍❤️‍🔥🥰❤️💯";
  }
 
 }, 1000);
