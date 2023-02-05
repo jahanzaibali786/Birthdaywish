@@ -51,11 +51,8 @@ body, html {
     width: 40%;
   }
   @media (min-width:360px) and (max-width:584px) {
-    body{
-      background-image: url('images/WhatsApp\ Image\ 2023-01-31\ at\ 8.26.50\ PM.jpeg');
-    }
     .birthdayimg {
-        background-image: url('images/WhatsApp\ Image\ 2023-01-31\ at\ 8.26.50\ PM.jpeg');
+        background-image: url('https://cdn.pixabay.com/photo/2018/02/23/21/29/roses-frame-3176667_960_720.jpg');
         height: 100%;
         background-position: center;
         background-size: cover;
@@ -71,18 +68,19 @@ body, html {
         text-align: center;
       }
     .wish{
-        background-color: purple;
+        background:linear-gradient(rgba(0,0,0,0.1),rgb(253, 140, 236)), url(images/13659115_913999322061027_5442243832848758832_n.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left:6%;
+        margin-left:1%;
         position: relative;
         top:28%;
-        width: 360px;
-        height: 1550px;
+        width: 350px;
+        height: 450px;
         border: 2px solid black;
       }
     #jazi{
-      color: yellow;
+      color: black;
+      -webkit-text-stroke: 1px rgb(7, 7, 7);
       font-size: smaller;
       }
 }
